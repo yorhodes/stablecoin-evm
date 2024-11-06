@@ -43,3 +43,7 @@ mainnet = "${MAINNET_RPC_URL}"
 
 [profile.default.zksync]
 zksolc = "1.5.7"
+detect_missing_libraries = true
+libraries = [
+    "contracts/util/SignatureChecker.sol:SignatureChecker:0xfbA0c57A6BA24B5440D3e2089222099b4663B98B"
+]
