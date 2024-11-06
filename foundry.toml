@@ -40,3 +40,6 @@ extra-output-files = [
 [rpc_endpoints]
 testnet = "${TESTNET_RPC_URL}"
 mainnet = "${MAINNET_RPC_URL}"
+
+[profile.default.zksync]
+zksolc = "1.5.7"
